@@ -3,6 +3,13 @@ This is a puzzle where the aim of the game is to escape from the wolf.
 The wolf by default has an advantage as it can move faster than thomas,
 however our daring hero has greater intelligence than the wolf... and walls.
 
+## How to run
+```
+# Please note, in this current state it will enter an 
+# infinite loop attempting to solve the puzzle.
+npm run start
+```
+
 ## Rules
 - The grid contains walls - neither Thomas, nor the wolf can pass through walls
 - Thomas can move one space or can chose not to move for his turn
